@@ -17,8 +17,8 @@ let getGreeting name = $"Hello, {name}! Isn't F# great?"
 
 [<EntryPoint>]
 let main args =
-    // Defines a list of names
-    let names = [ "Don"; "Julia"; "Xi" ]
+    // Defines a list of names 
+    let names = [ "Don"; "Julia"; "Xi"; "René" ]
 
     // Prints a greeting for each name!
     names
